@@ -12,9 +12,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-/**
-  * Тестируем логику работы
- */
+
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
 
