@@ -34,7 +34,7 @@ public class BurgerParameterizedTest {
         burger = new Burger();
     }
 
-    @Parameterized.Parameters
+    @Parameterized.Parameters(name = "Тестовые данные: {0} {1} {2} {3}")
     public static Collection<Object[]> testData() {
         return Arrays.asList(new Object[][] {
                 {100f, 0, 0f, 200f},
