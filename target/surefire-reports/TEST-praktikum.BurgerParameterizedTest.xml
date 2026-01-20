@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="praktikum.BurgerParameterizedTest" time="3.907" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Practicum\Diplom\Diplom_1\target\test-classes;C:\Practicum\Diplom\Diplom_1\target\classes;C:\m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.28_6\bin"/>
+    <property name="sun.java.command" value="C:\Users\Николай\AppData\Local\Temp\surefire14116732819505157538\surefirebooter-20260118235340213_3.jar C:\Users\Николай\AppData\Local\Temp\surefire14116732819505157538 2026-01-18T23-53-39_678-jvmRun1 surefire-20260118235340213_1tmp surefire_0-20260118235340213_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Practicum\Diplom\Diplom_1\target\test-classes;C:\Practicum\Diplom\Diplom_1\target\classes;C:\m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\m2\repository\org\mockito\mockito-core\5.11.0\mockito-core-5.11.0.jar;C:\m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\m2\repository\org\assertj\assertj-core\3.25.3\assertj-core-3.25.3.jar;C:\m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Николай"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.28_6"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Practicum\Diplom\Diplom_1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Николай\AppData\Local\Temp\surefire14116732819505157538\surefirebooter-20260118235340213_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.28+6-LTS"/>
+    <property name="user.name" value="Галина"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.28.6.1"/>
+    <property name="localRepository" value="C:\m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\D683~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.28"/>
+    <property name="user.dir" value="C:\Practicum\Diplom\Diplom_1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.28_6\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Amazon Corretto\jdk11.0.28_6\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\apache-maven-3.9.11;C:\Program Files\apache-maven-3.9.11\bin;C:\Program Files\Git\cmd;C:\Users\Николай\AppData\Local\Microsoft\WindowsApps;C:\Users\Николай\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\BrowserStackLocal\;C:\Practicum\allure-commandline-2.35.1\allure-2.35.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.28+6-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 100 0 0 200]" classname="praktikum.BurgerParameterizedTest" time="3.582"/>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 100 1 50 250]" classname="praktikum.BurgerParameterizedTest" time="0.069"/>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 100 3 30 290]" classname="praktikum.BurgerParameterizedTest" time="0.01"/>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 150 2 75 450]" classname="praktikum.BurgerParameterizedTest" time="0.009"/>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 0 2 100 200]" classname="praktikum.BurgerParameterizedTest" time="0.008"/>
+  <testcase name="testPriceCalculationWithVariousParameters[Тестовые данные: 50 5 10 150]" classname="praktikum.BurgerParameterizedTest" time="0.014"/>
+</testsuite>
