@@ -316,18 +316,14 @@ public class BurgerTest {
         System.out.println(receipt);
         System.out.println("---");
 
-        // Простая проверка всей строки рецепта целиком
-        // Проверяем наличие всех необходимых частей
-        assertTrue(receipt.contains("(==== red bun ===="));
-        assertTrue(receipt.contains("Price:"));
+        // ОДИН ассерт, проверяющий всю строку рецепта целиком
+        String expected = "(==== red bun ====)" + System.lineSeparator() +
+                "(==== red bun ====)" + System.lineSeparator() +
+                System.lineSeparator() +
+                "Price: 600,000000" + System.lineSeparator();
 
-        // Проверяем структуру чека
-        String[] lines = receipt.split(System.lineSeparator());
-        assertTrue(lines.length >= 3); // Должно быть как минимум 3 строки
-        assertTrue(lines[0].contains("red bun")); // Первая строка - верхняя булочка
-        assertTrue(lines[lines.length - 1].contains("Price:")); // Последняя строка - цена
+        assertEquals(expected, receipt);
     }
-
     @Test
     public void testGetReceiptWithOneIngredient() {
         when(bunMock.getName()).thenReturn("white bun");
@@ -347,13 +343,15 @@ public class BurgerTest {
         System.out.println(receipt);
         System.out.println("---");
 
-        // Проверяем всю строку рецепта целиком по частям
-        assertTrue(receipt.contains("(==== white bun ===="));
-        assertTrue(receipt.contains("= filling sausage ="));
-        assertTrue(receipt.contains("Price:"));
-        assertTrue(receipt.contains("250.00") || receipt.contains("250,00") || receipt.contains("250.000000") || receipt.contains("250,000000"));
-    }
+        // ОДИН ассерт, проверяющий всю строку рецепта целиком
+        String expected = "(==== white bun ====)" + System.lineSeparator() +
+                "= filling sausage =" + System.lineSeparator() +
+                "(==== white bun ====)" + System.lineSeparator() +
+                System.lineSeparator() +
+                "Price: 250,000000" + System.lineSeparator();
 
+        assertEquals("Receipt doesn't match expected format", expected, receipt);
+    }
     @Test
     public void testFirstIngredientInReceiptIsFirstInList() {
         when(bunMock.getName()).thenReturn("black bun");
